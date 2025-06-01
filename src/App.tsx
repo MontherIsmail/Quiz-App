@@ -1,9 +1,12 @@
 import "./App.css";
+import { Quastions } from "./components";
 
-function App() {
-  return <>
-    Hello from the other side!
-  </>;
-}
+const App = () => {
+  return (
+    <>
+      <Quastions />
+    </>
+  );
+};
 
 export default App;
